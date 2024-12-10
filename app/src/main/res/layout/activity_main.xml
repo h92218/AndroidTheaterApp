@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/centerButton1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="CGV"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/centerButton3"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="씨네큐"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/centerButton2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="롯데시네마"
+        android:layout_marginBottom="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/centerButton4"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="메가박스"/>
+</LinearLayout>
